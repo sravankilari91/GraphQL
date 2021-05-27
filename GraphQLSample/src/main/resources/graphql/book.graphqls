@@ -1,9 +1,10 @@
 type Books {
-    id:ID!
-    bookName:String!
+    id:ID!,
+    bookName:String!,
     publishYear:Int!
 }
 #Query root
 type Query {
     findAllBooks: [Books]!
 }
+
